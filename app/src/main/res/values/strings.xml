@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My ApplicationAndroid-Beginner</string>
+    <string name="Button">Кнопка</string>
+    <string name="Text1">Синий</string>
+    <string name="Text2">красный</string>
+    <string name="text1" />
+    <string name="button">кнопка</string>
+    <string name="textOne">цвет зеленый</string>
+    <string name="textTwo">цвет синий</string>
+
+</resources>

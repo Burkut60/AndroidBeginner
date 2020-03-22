@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="116dp"
+        android:layout_height="383dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:background="#B04A148C"
+            android:baselineAligned="false"
+            android:text="@string/Button"
+            android:textColor="#120E0E"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:background="#DA1A237E"
+            android:baselineAligned="false"
+            android:shadowColor="#4A148C"
+            android:text="@string/Text1"
+            android:textColor="#F0FFFFFF"
+            android:textSize="30sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:background="#CEA14040"
+            android:baselineAligned="false"
+            android:text="@string/Text2"
+            android:textColor="#FFB700"
+            android:textSize="24sp"
+            android:typeface="sans" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
