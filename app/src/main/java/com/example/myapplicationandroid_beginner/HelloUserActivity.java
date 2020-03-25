@@ -8,15 +8,15 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 
-public class HelloUser extends Activity {
-    Button button;
-    TextView textOne;
-    TextView textTwo;
+public class HelloUserActivity extends Activity {
+    private Button button;
+    private TextView textOne;
+    private TextView textTwo;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activitt_helloo_user);
+        setContentView(R.layout.activity_hello_user);
 
         button = findViewById(R.id.button2);
         textOne = findViewById(R.id.textView);

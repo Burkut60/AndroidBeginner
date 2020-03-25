@@ -8,9 +8,9 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-    TextView textView2;
-    TextView textView3;
-    Button button;
+    private TextView textView2;
+    private TextView textView3;
+    private Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,14 +21,31 @@ public class MainActivity extends AppCompatActivity {
         textView3 = findViewById(R.id.textView3);
         button = findViewById(R.id.button);
 
+        textView3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+PressingButton pressingButton = new PressingButton();
+pressingButton.dataChange(textView2,textView3);
+            }
+        });
+
+textView2.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View v) {
+        PressingButton pressingButton = new PressingButton();
+        pressingButton.dataChange(textView2,textView3);
+    }
+});
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                textView2.setText("Краный");
-
-                textView3.setText("Синий");
+                PressingButton pressingButton = new PressingButton();
+                pressingButton.dataChange(textView2,textView3);
 
             }
+
+
         });
     }
 }

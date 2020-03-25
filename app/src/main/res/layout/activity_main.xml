@@ -25,10 +25,10 @@
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
-            android:layout_height="88dp"
+            android:layout_height="86dp"
             android:background="#B04A148C"
             android:baselineAligned="false"
-            android:text="@string/Button"
+            android:text="@string/button"
             android:textColor="#120E0E"
             android:textSize="24sp" />
 
@@ -36,6 +36,7 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="89dp"
+
             android:background="#DA1A237E"
             android:baselineAligned="false"
             android:shadowColor="#4A148C"
