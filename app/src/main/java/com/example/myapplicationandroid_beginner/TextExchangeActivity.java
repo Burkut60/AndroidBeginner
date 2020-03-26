@@ -15,7 +15,7 @@ public class TextExchangeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_menu);
 
         textView2 = findViewById(R.id.textView2);
         textView3 = findViewById(R.id.textView3);

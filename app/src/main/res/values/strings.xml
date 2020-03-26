@@ -6,5 +6,6 @@
     <string name="text1" />
     <string name="textOne">цвет зеленый</string>
     <string name="textTwo">цвет синий</string>
+    <string name="textExChangeActivity">TextExchangeActivity</string>
 
 </resources>
