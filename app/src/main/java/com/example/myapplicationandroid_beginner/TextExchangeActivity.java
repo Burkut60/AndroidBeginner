@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class TextExchangeActivity extends AppCompatActivity {
     private TextView textView2;
     private TextView textView3;
     private Button button;
