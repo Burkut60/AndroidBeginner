@@ -1,13 +1,12 @@
 package com.example.myapplicationandroid_beginner;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-public class TextExchangeActivity extends AppCompatActivity {
+public class TextExchangeActivity extends Activity {
     private TextView textView2;
     private TextView textView3;
     private Button button;
@@ -15,7 +14,7 @@ public class TextExchangeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu);
+        setContentView(R.layout.activity_main);
 
         textView2 = findViewById(R.id.textView2);
         textView3 = findViewById(R.id.textView3);
