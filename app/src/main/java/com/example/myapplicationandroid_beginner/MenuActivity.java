@@ -7,10 +7,8 @@ import android.view.View;
 import android.widget.Button;
 
 public class MenuActivity extends Activity {
-
- private Button buttonMenu;
-
-    protected void onCreate(Bundle savedInstanceState) {
+    private Button buttonMenu;
+  protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
          buttonMenu = findViewById(R.id.buttonMenu);

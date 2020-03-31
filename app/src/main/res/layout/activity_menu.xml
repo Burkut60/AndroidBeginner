@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -18,27 +17,24 @@
         android:id="@+id/skrolViewMenu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
             <Button
                 android:id="@+id/buttonMenu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginEnd="16dp"
-                android:layout_marginRight="16dp"
-                android:layout_marginBottom="16dp"
+                android:layout_margin="@dimen/generalIndent"
+                android:layout_marginStart="@dimen/generalIndent"
+                android:layout_marginLeft="@dimen/generalIndent"
+                android:layout_marginTop="@dimen/generalIndent"
+                android:layout_marginEnd="@dimen/generalIndent"
+                android:layout_marginRight="@dimen/generalIndent"
+                android:layout_marginBottom="@dimen/generalIndent"
                 android:gravity="start"
                 android:scrollbarDefaultDelayBeforeFade="450"
                 android:text="@string/textExChangeActivity" />
-
             <Button
                 android:id="@+id/button2"
                 android:layout_width="match_parent"
@@ -52,7 +48,6 @@
                 android:layout_marginBottom="16dp"
                 android:text="@string/nextTask"
                 android:textSize="14sp" />
-
             <Button
                 android:id="@+id/button3"
                 android:layout_width="match_parent"
@@ -65,7 +60,6 @@
                 android:layout_marginRight="16dp"
                 android:layout_marginBottom="16dp"
                 android:text="@string/nextTask2" />
-
             <Button
                 android:id="@+id/button4"
                 android:layout_width="match_parent"
@@ -78,8 +72,36 @@
                 android:layout_marginRight="16dp"
                 android:layout_marginBottom="16dp"
                 android:text="@string/nextTask3" />
-
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/generalIndent"
+                android:text="@string/nextTask4" />
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/generalIndent"
+                android:text="@string/nextTask5" />
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/generalIndent"
+                android:text="@string/nextTask6" />
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:layout_margin="@dimen/generalIndent"
+                android:text="@string/nextTask7" />
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/generalIndent"
+                android:text="@string/nextTask8" />
         </LinearLayout>
     </ScrollView>
-
 </LinearLayout>
