@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My ApplicationAndroid-Beginner</string>
+    <string name="button">Кнопка</string>
+    <string name="Text1">Синий</string>
+    <string name="Text2">красный</string>
+    <string name="text1" />
+    <string name="textOne">цвет зеленый</string>
+    <string name="textTwo">цвет синий</string>
+    <string name="textExChangeActivity">TextExchangeActivity</string>
+    <string name="Menu">menu</string>
+    <string name="buttonMenu">buttonMenu</string>
+    <string name="nextTask">next task</string>
+    <string name="nextTask2">nextTask2</string>
+    <string name="nextTask3">nextTask3</string>
+    <string name="nextTask5">nextTask5</string>
+    <string name="nextTask4">nextTask4</string>
+    <string name="nextTask6">nextTask6</string>
+    <string name="nextTask7">nextTask7</string>
+    <string name="nextTask8">nextTask8</string>
+</resources>
