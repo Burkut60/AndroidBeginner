@@ -1,6 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollAustralia"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/generalIndent">
+
+    <LinearLayout
+        android:id="@+id/LinearFlag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ItaliId"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@color/GreenColor"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ItaliId2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/redStrip"
+                android:orientation="horizontal"></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/AustraliaId"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="@dimen/generalIndent"
+            android:layout_marginStart="@dimen/generalIndent"
+            android:layout_marginTop="@dimen/generalIndent"
+            android:layout_marginEnd="@dimen/generalIndent"
+            android:background="@color/redStrip"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/AustraliaId2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="@dimen/flagStripSize"
+                android:layout_marginBottom="@dimen/flagStripSize"
+                android:background="@color/whiteStrip"
+                android:orientation="vertical"></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/PolandId"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="@dimen/generalIndent"
+            android:background="@color/whiteStrip"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/PolandId2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="@dimen/generalIndent"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="@dimen/generalIndent"
+                android:layout_marginBottom="@dimen/generalIndent"
+                android:background="#E80F0F"
+                android:orientation="vertical"></LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+
+

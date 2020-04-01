@@ -29,7 +29,7 @@ public class TextExchangeActivity extends Activity {
         setContentView(R.layout.activity_main);
         textView2 = findViewById(R.id.textView2);
         textView3 = findViewById(R.id.textView3);
-        button = findViewById(R.id.button);
+        button = findViewById(R.id.buttonFlagsActivity);
 
         textView3.setOnClickListener(new View.OnClickListener() {
             @Override
