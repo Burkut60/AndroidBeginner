@@ -12,24 +12,192 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <FrameLayout
+            android:id="@+id/Denmark"
+            android:layout_width="380dp"
+            android:layout_height="160dp"
+            android:background="#FFFFFF"
+            android:padding="@dimen/generalIndent">
+
+            <FrameLayout
+                android:id="@+id/DenmarkId1"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@color/redStrip">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/DenmarkId2"
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom|end"
+                android:background="@color/redStrip">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/DenmarkId3"
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:layout_gravity="fill_vertical|end"
+                android:background="@color/redStrip">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/DenmarkId4"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom"
+                android:background="@color/redStrip">
+
+            </FrameLayout>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/Thailand"
+            android:layout_width="380dp"
+            android:layout_height="160dp"
+            android:orientation="vertical"
+            android:padding="@dimen/generalIndent">
+
+            <LinearLayout
+                android:id="@+id/ThailandId1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#B71C1C"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ThailandId2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ThailandId3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="#1A237E"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ThailandId4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ThailandId5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#B71C1C"
+                android:orientation="vertical"></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Madagascar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:orientation="vertical"
+            android:padding="@dimen/generalIndent">
+
+            <LinearLayout
+                android:id="@+id/MadagascarId1"
+                android:layout_width="270dp"
+                android:layout_height="80dp"
+                android:background="#1C9F26"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/MadagascarId2"
+                android:layout_width="270dp"
+                android:layout_height="80dp"
+                android:background="#FA0606"
+                android:orientation="vertical"></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Colombia"
+            android:layout_width="380dp"
+            android:layout_height="160dp"
+            android:orientation="vertical"
+            android:padding="@dimen/generalIndent">
+
+            <LinearLayout
+                android:id="@+id/ColombiaId1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="#D7EF0A"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ColombiaId2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#0C1AAA"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ColombiaId3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FF0E0E"
+                android:orientation="vertical"></LinearLayout>
+        </LinearLayout>
+
         <LinearLayout
             android:id="@+id/ItaliId"
-            android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:background="@color/GreenColor"
-            android:orientation="horizontal">
+            android:layout_width="380dp"
+            android:layout_height="160dp"
+            android:background="@color/whiteStrip"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/generalIndent"
+            android:paddingEnd="@dimen/generalIndent">
+
+            <LinearLayout
+                android:id="@+id/ItaliaId4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#27872F"
+                android:orientation="horizontal"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ItaliaId3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#ECF1EB"
+                android:orientation="horizontal"
+                android:visibility="visible"></LinearLayout>
 
             <LinearLayout
                 android:id="@+id/ItaliId2"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:background="@color/redStrip"
                 android:orientation="horizontal"></LinearLayout>
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/AustraliaId"
-            android:layout_width="match_parent"
+            android:layout_width="380dp"
             android:layout_height="120dp"
             android:layout_margin="@dimen/generalIndent"
             android:layout_marginStart="@dimen/generalIndent"
@@ -59,7 +227,7 @@
             <LinearLayout
                 android:id="@+id/PolandId2"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="match_parent"
                 android:layout_marginStart="@dimen/generalIndent"
                 android:layout_marginTop="60dp"
                 android:layout_marginEnd="@dimen/generalIndent"
