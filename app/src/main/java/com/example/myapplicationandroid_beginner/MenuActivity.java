@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MenuActivity extends Activity{
+public class MenuActivity extends Activity implements View.OnClickListener {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -15,19 +15,22 @@ public class MenuActivity extends Activity{
         Button buttonTextExChange = findViewById(R.id.buttonTrxtExChange);
         Button buttonFlagsActivity = findViewById(R.id.buttonFlagsActivity);
 
-        buttonTextExChange.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MenuActivity.this, TextExchangeActivity.class);
+        buttonTextExChange.setOnClickListener(this);
+        buttonFlagsActivity.setOnClickListener(this);
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.buttonTrxtExChange:
+                Intent intent = new Intent(this, TextExchangeActivity.class);
                 startActivity(intent);
-            }
-        });
-        buttonFlagsActivity.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intentFlags = new Intent(MenuActivity.this, FlagsActivity.class);
+                break;
+
+            case R.id.buttonFlagsActivity:
+                Intent intentFlags = new Intent(this, FlagsActivity.class);
                 startActivity(intentFlags);
-            }
-        });
+                break;
+        }
     }
 }
