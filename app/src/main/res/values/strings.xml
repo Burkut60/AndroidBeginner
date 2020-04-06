@@ -17,4 +17,12 @@
     <string name="nextTask6">nextTask6</string>
     <string name="nextTask7">nextTask7</string>
     <string name="nextTask8">nextTask8</string>
+    <string name="australia">linearAustralia</string>
+    <string name="Australia">Australia</string>
+    <string name="Australia2">Australia2</string>
+    <string name="Australia3">Australia3</string>
+    <string name="ScrollFlag">ScrollFlag</string>
+    <string name="layoutAustralia">layoutAustralia</string>
+    <string name="FlagsActivity">FlagsActivity</string>
+    <string name="buttonFlagsActivity">buttonFlagsActivity</string>
 </resources>

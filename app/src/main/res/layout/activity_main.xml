@@ -16,7 +16,7 @@
     app:layout_constraintTop_toTopOf="parent">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonFlagsActivity"
             android:layout_width="match_parent"
             android:layout_height="86dp"
             android:background="#B04A148C"
@@ -29,7 +29,6 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="89dp"
-
             android:background="#DA1A237E"
             android:baselineAligned="false"
             android:shadowColor="#4A148C"
