@@ -7,20 +7,20 @@
     android:layout_margin="@dimen/generalIndent">
 
     <LinearLayout
-        android:id="@+id/LinearFlag"
+        android:id="@+id/linearFlag"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <FrameLayout
-            android:id="@+id/Denmark"
+            android:id="@+id/denmark"
             android:layout_width="380dp"
             android:layout_height="160dp"
-            android:background="#FFFFFF"
+            android:background="@color/whiteStrip"
             android:padding="@dimen/generalIndent">
 
             <FrameLayout
-                android:id="@+id/DenmarkId1"
+                android:id="@+id/denmarkId1"
                 android:layout_width="100dp"
                 android:layout_height="50dp"
                 android:background="@color/redStrip">
@@ -28,7 +28,7 @@
             </FrameLayout>
 
             <FrameLayout
-                android:id="@+id/DenmarkId2"
+                android:id="@+id/denmarkId2"
                 android:layout_width="220dp"
                 android:layout_height="50dp"
                 android:layout_gravity="bottom|end"
@@ -37,7 +37,7 @@
             </FrameLayout>
 
             <FrameLayout
-                android:id="@+id/DenmarkId3"
+                android:id="@+id/denmarkId3"
                 android:layout_width="220dp"
                 android:layout_height="50dp"
                 android:layout_gravity="fill_vertical|end"
@@ -46,7 +46,7 @@
             </FrameLayout>
 
             <FrameLayout
-                android:id="@+id/DenmarkId4"
+                android:id="@+id/denmarkId4"
                 android:layout_width="100dp"
                 android:layout_height="50dp"
                 android:layout_gravity="bottom"
@@ -57,55 +57,55 @@
         </FrameLayout>
 
         <LinearLayout
-            android:id="@+id/Thailand"
+            android:id="@+id/thailand"
             android:layout_width="380dp"
             android:layout_height="160dp"
             android:orientation="vertical"
             android:padding="@dimen/generalIndent">
 
             <LinearLayout
-                android:id="@+id/ThailandId1"
+                android:id="@+id/thailandId1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="#B71C1C"
+                android:background="@color/redStrip"
                 android:orientation="vertical"></LinearLayout>
 
             <LinearLayout
-                android:id="@+id/ThailandId2"
+                android:id="@+id/thailandId2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@color/whiteStrip"
                 android:orientation="vertical"></LinearLayout>
 
             <LinearLayout
-                android:id="@+id/ThailandId3"
+                android:id="@+id/thailandId3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
-                android:background="#1A237E"
+                android:background="@color/colorPrimary"
                 android:orientation="vertical"></LinearLayout>
 
             <LinearLayout
-                android:id="@+id/ThailandId4"
+                android:id="@+id/thailandId4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
+                android:background="@color/whiteStrip"
                 android:orientation="vertical"></LinearLayout>
 
             <LinearLayout
-                android:id="@+id/ThailandId5"
+                android:id="@+id/t"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="#B71C1C"
+                android:background="@color/redStrip"
                 android:orientation="vertical"></LinearLayout>
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/Madagascar"
+            android:id="@+id/madagascar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
@@ -113,54 +113,54 @@
             android:padding="@dimen/generalIndent">
 
             <LinearLayout
-                android:id="@+id/MadagascarId1"
+                android:id="@+id/madagascarId1"
                 android:layout_width="270dp"
                 android:layout_height="80dp"
-                android:background="#1C9F26"
+                android:background="@color/GreenColor"
                 android:orientation="vertical"></LinearLayout>
 
             <LinearLayout
-                android:id="@+id/MadagascarId2"
+                android:id="@+id/madagascarId2"
                 android:layout_width="270dp"
                 android:layout_height="80dp"
-                android:background="#FA0606"
+                android:background="@color/redStrip"
                 android:orientation="vertical"></LinearLayout>
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/Colombia"
+            android:id="@+id/colombia"
             android:layout_width="380dp"
             android:layout_height="160dp"
             android:orientation="vertical"
             android:padding="@dimen/generalIndent">
 
             <LinearLayout
-                android:id="@+id/ColombiaId1"
+                android:id="@+id/colombiaId1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
-                android:background="#D7EF0A"
+                android:background="@color/yellow"
                 android:orientation="vertical"></LinearLayout>
 
             <LinearLayout
-                android:id="@+id/ColombiaId2"
+                android:id="@+id/colombiaId2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="#0C1AAA"
+                android:background="@color/colorPrimary"
                 android:orientation="vertical"></LinearLayout>
 
             <LinearLayout
-                android:id="@+id/ColombiaId3"
+                android:id="@+id/colombiaId3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="#FF0E0E"
+                android:background="@color/redStrip"
                 android:orientation="vertical"></LinearLayout>
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/ItaliId"
+            android:id="@+id/italiId"
             android:layout_width="380dp"
             android:layout_height="160dp"
             android:background="@color/whiteStrip"
@@ -170,24 +170,24 @@
             android:paddingEnd="@dimen/generalIndent">
 
             <LinearLayout
-                android:id="@+id/ItaliaId4"
+                android:id="@+id/italiaId4"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#27872F"
+                android:background="@color/GreenColor"
                 android:orientation="horizontal"></LinearLayout>
 
             <LinearLayout
-                android:id="@+id/ItaliaId3"
+                android:id="@+id/italiaId3"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#ECF1EB"
+                android:background="@color/whiteStrip"
                 android:orientation="horizontal"
                 android:visibility="visible"></LinearLayout>
 
             <LinearLayout
-                android:id="@+id/ItaliId2"
+                android:id="@+id/italiId2"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -196,7 +196,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/AustraliaId"
+            android:id="@+id/australiaId"
             android:layout_width="380dp"
             android:layout_height="120dp"
             android:layout_margin="@dimen/generalIndent"
@@ -207,7 +207,7 @@
             android:orientation="vertical">
 
             <LinearLayout
-                android:id="@+id/AustraliaId2"
+                android:id="@+id/AaustraliaId2"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_marginTop="@dimen/flagStripSize"
@@ -217,7 +217,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/PolandId"
+            android:id="@+id/polandId"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:layout_marginTop="@dimen/generalIndent"
@@ -225,14 +225,14 @@
             android:orientation="vertical">
 
             <LinearLayout
-                android:id="@+id/PolandId2"
+                android:id="@+id/polandId2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginStart="@dimen/generalIndent"
                 android:layout_marginTop="60dp"
                 android:layout_marginEnd="@dimen/generalIndent"
                 android:layout_marginBottom="@dimen/generalIndent"
-                android:background="#E80F0F"
+                android:background="@color/redStrip"
                 android:orientation="vertical"></LinearLayout>
 
         </LinearLayout>

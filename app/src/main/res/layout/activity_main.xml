@@ -16,7 +16,7 @@
     app:layout_constraintTop_toTopOf="parent">
 
         <Button
-            android:id="@+id/buttonFlagsActivity"
+            android:id="@+id/button1Activity"
             android:layout_width="match_parent"
             android:layout_height="86dp"
             android:background="#B04A148C"

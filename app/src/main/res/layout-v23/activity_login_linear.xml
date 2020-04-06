@@ -1,28 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:foreground="@drawable/good"
-    android:orientation="vertical">
+    android:layout_marginBottom="20dp"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical"
+    android:scaleType="centerCrop">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom"
         android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logpId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/generalIndent"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/login_logo"
+            android:scrollbarDefaultDelayBeforeFade="400"
+            android:scrollbarFadeDuration="200"
+            android:scrollbarSize="40dp"
+            app:srcCompat="@drawable/login_logo"
+            tools:ignore="ContentDescription" />
+
+        <EditText
+            android:id="@+id/UserNameId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/generalIndent"
+            android:background="@color/dark"
+            android:drawableStart="@drawable/ic_login_name"
+            android:ellipsize="start"
+            android:ems="12"
+            android:hint="@string/Username"
+            android:paddingLeft="@dimen/generalIndent"
+            android:text="@string/Username"
+            android:textColor="@color/whiteStrip"
+            android:textColorHighlight="@color/whiteStrip"
+            android:textColorHint="@color/whiteStrip"
+            android:textColorLink="@color/whiteStrip"
+            android:textIsSelectable="false" />
+
+        <EditText
+            android:id="@+id/PasswordId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/generalIndent"
+            android:background="@color/dark"
+            android:drawableStart="@drawable/ic_login_password"
+            android:ems="12"
+            android:focusableInTouchMode="false"
+            android:hint="@string/Password"
+            android:paddingLeft="@dimen/generalIndent"
+            android:text="@string/Password"
+            android:textColor="@color/whiteStrip"
+            android:textColorHighlight="@color/whiteStrip"
+            android:textColorHint="@color/whiteStrip"
+            android:textColorLink="@color/colorPrimaryDark" />
 
         <Button
             android:id="@+id/logInId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/generalIndent"
-            android:background="@color/whiteStrip"
-            android:text="@string/logIn" />
+            android:background="@color/blue"
+            android:text="@string/logIn"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/whiteStrip"
+            android:textColorHint="@color/whiteStrip"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/forgotId"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="@dimen/generalIndent"
+            android:gravity="center"
+            android:text="@string/forgot"
+            android:textColor="@color/whiteStrip"
+            android:textSize="16sp" />
+
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:gravity="bottom"
         android:orientation="vertical">
 
@@ -31,8 +100,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/generalIndent"
-            android:background="@color/colorPrimaryDark"
-            android:text="@string/Create_account" />
+            android:background="@color/cappucchino"
+            android:text="@string/Create_account"
+            android:textColor="@color/whiteStrip"
+            android:textSize="16sp" />
     </LinearLayout>
 
 </LinearLayout>

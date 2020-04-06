@@ -25,4 +25,11 @@
     <string name="layoutAustralia">layoutAustralia</string>
     <string name="FlagsActivity">FlagsActivity</string>
     <string name="buttonFlagsActivity">buttonFlagsActivity</string>
+    <string name="Create_account">Create account</string>
+    <string name="logIn">Log in</string>
+    <string name="LoginLinearActivity">LoginLinearActivity</string>
+    <string name="Username" />
+    <string name="Password">Password</string>
+    <string name="UserName" />
+    <string name="forgot"><u>forgot your username/password?</u>.</string>
 </resources>
