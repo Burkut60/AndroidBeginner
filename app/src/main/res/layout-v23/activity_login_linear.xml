@@ -53,18 +53,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/generalIndent"
+            android:autofillHints=""
             android:background="@color/dark"
             android:drawableStart="@drawable/ic_login_password"
             android:ems="12"
-            android:focusableInTouchMode="false"
             android:hint="@string/Password"
             android:inputType="textPassword"
             android:text="@string/Password"
             android:textColor="@color/whiteStrip"
             android:textColorHighlight="@color/whiteStrip"
             android:textColorHint="@color/whiteStrip"
-            android:textColorLink="@color/colorPrimaryDark"
-            android:autofillHints="" />
+            android:textColorLink="@color/colorPrimaryDark" />
 
         <Button
             android:id="@+id/logInId"
