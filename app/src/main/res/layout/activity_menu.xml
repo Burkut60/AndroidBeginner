@@ -24,7 +24,7 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/buttonTrxtExChange"
+                android:id="@+id/textExChangeButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/generalIndent"
@@ -39,7 +39,7 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/button1Activity"
+                android:id="@+id/flagsButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"

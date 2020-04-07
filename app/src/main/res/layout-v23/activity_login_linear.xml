@@ -3,99 +3,89 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/logoScroll"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:fillViewport="true"
-    android:background="@drawable/login_bg">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:fillViewport="true">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-
+        android:gravity="bottom"
         android:orientation="vertical">
 
-        <LinearLayout
+        <ImageView
+            android:id="@+id/logoImage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="bottom"
-            android:orientation="vertical">
+            android:layout_margin="@dimen/generalIndent"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/login_logo"
+            android:scrollbarDefaultDelayBeforeFade="400"
+            android:scrollbarFadeDuration="200"
+            android:scrollbarSize="40dp"
+            app:srcCompat="@drawable/login_logo"
+            tools:ignore="ContentDescription" />
 
-            <ImageView
-                android:id="@+id/logoImage"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/generalIndent"
-                android:layout_marginBottom="20dp"
-                android:background="@drawable/login_logo"
-                android:scrollbarDefaultDelayBeforeFade="400"
-                android:scrollbarFadeDuration="200"
-                android:scrollbarSize="40dp"
-                app:srcCompat="@drawable/login_logo"
-                tools:ignore="ContentDescription" />
+        <EditText
+            android:id="@+id/userNameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/generalIndent"
+            android:autofillHints=""
+            android:background="@color/dark"
+            android:drawableStart="@drawable/ic_login_name"
+            android:ellipsize="start"
+            android:ems="12"
+            android:hint="@string/UserName"
+            android:inputType="text"
+            android:textColor="@color/whiteStrip"
+            android:textColorHighlight="@color/whiteStrip"
+            android:textColorHint="@color/whiteStrip"
+            android:textColorLink="@color/whiteStrip"
+            android:textIsSelectable="false" />
 
-            <EditText
-                android:id="@+id/userNameText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/generalIndent"
-                android:autofillHints=""
-                android:background="@color/dark"
-                android:drawableStart="@drawable/ic_login_name"
-                android:ellipsize="start"
-                android:ems="12"
-                android:hint="@string/UserName"
-                android:inputType="text"
-                android:textColor="@color/whiteStrip"
-                android:textColorHighlight="@color/whiteStrip"
-                android:textColorHint="@color/whiteStrip"
-                android:textColorLink="@color/whiteStrip"
-                android:textIsSelectable="false" />
+        <EditText
+            android:id="@+id/passwordText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/generalIndent"
+            android:autofillHints=""
+            android:background="@color/dark"
+            android:drawableStart="@drawable/ic_login_password"
+            android:ems="12"
+            android:hint="@string/Password"
+            android:inputType="textPassword"
+            android:textColor="@color/whiteStrip"
+            android:textColorHighlight="@color/whiteStrip"
+            android:textColorHint="@color/whiteStrip"
+            android:textColorLink="@color/colorPrimaryDark" />
 
-            <EditText
-                android:id="@+id/passwordText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/generalIndent"
-                android:autofillHints=""
-                android:background="@color/dark"
-                android:drawableStart="@drawable/ic_login_password"
-                android:ems="12"
-                android:hint="@string/Password"
-                android:inputType="textPassword"
-                android:textColor="@color/whiteStrip"
-                android:textColorHighlight="@color/whiteStrip"
-                android:textColorHint="@color/whiteStrip"
-                android:textColorLink="@color/colorPrimaryDark" />
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/generalIndent"
+            android:background="@color/blue"
+            android:text="@string/logIn"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/whiteStrip"
+            android:textColorHint="@color/whiteStrip"
+            android:textSize="16sp" />
 
-            <Button
-                android:id="@+id/login"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/generalIndent"
-                android:background="@color/blue"
-                android:text="@string/logIn"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-                android:textColor="@color/whiteStrip"
-                android:textColorHint="@color/whiteStrip"
-                android:textSize="16sp" />
-
-            <TextView
-                android:id="@+id/forgot"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/generalIndent"
-                android:gravity="center"
-                android:text="@string/forgot"
-                android:textColor="@color/whiteStrip"
-                android:textSize="16sp" />
-
-        </LinearLayout>
+        <TextView
+            android:id="@+id/forgot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/generalIndent"
+            android:gravity="center"
+            android:text="@string/forgot"
+            android:textColor="@color/whiteStrip"
+            android:textSize="16sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:layout_weight="1"
             android:gravity="bottom"
             android:orientation="vertical">
