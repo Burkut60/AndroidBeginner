@@ -3,7 +3,6 @@
     <string name="button">Кнопка</string>
     <string name="Text1">Синий</string>
     <string name="Text2">красный</string>
-    <string name="text1" />
     <string name="textOne">цвет зеленый</string>
     <string name="textTwo">цвет синий</string>
     <string name="textExChangeActivity">TextExchangeActivity</string>
@@ -28,8 +27,7 @@
     <string name="Create_account">Create account</string>
     <string name="logIn">Log in</string>
     <string name="LoginLinearActivity">LoginLinearActivity</string>
-    <string name="Username" />
-    <string name="Password">Password</string>
-    <string name="UserName" />
+    <string name="Password">password</string>
+    <string name="UserName" >username</string>
     <string name="forgot"><u>forgot your username/password?</u>.</string>
 </resources>
