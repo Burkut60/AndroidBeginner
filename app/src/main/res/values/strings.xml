@@ -3,12 +3,11 @@
     <string name="button">Кнопка</string>
     <string name="Text1">Синий</string>
     <string name="Text2">красный</string>
-    <string name="text1" />
     <string name="textOne">цвет зеленый</string>
     <string name="textTwo">цвет синий</string>
     <string name="textExChangeActivity">TextExchangeActivity</string>
     <string name="Menu">menu</string>
-    <string name="buttonMenu">buttonMenu</string>
+    <string name="buttonMenu">menuButton</string>
     <string name="nextTask">next task</string>
     <string name="nextTask2">nextTask2</string>
     <string name="nextTask3">nextTask3</string>
@@ -21,8 +20,15 @@
     <string name="Australia">Australia</string>
     <string name="Australia2">Australia2</string>
     <string name="Australia3">Australia3</string>
-    <string name="ScrollFlag">ScrollFlag</string>
+    <string name="ScrollFlag">scrollFlag</string>
     <string name="layoutAustralia">layoutAustralia</string>
-    <string name="FlagsActivity">FlagsActivity</string>
-    <string name="buttonFlagsActivity">buttonFlagsActivity</string>
+    <string name="FlagsActivity">flagsActivity</string>
+    <string name="buttonFlagsActivity"> flagActivityButton</string>
+    <string name="Create_account">Create account</string>
+    <string name="logIn">Log in</string>
+    <string name="LoginLinearActivity">LoginLinearActivity</string>
+    <string name="Password">password</string>
+    <string name="UserName" >username</string>
+    <string name="forgot"><u>forgot your username/password?</u></string>
+    <string name="buttonTextExChange">textExChangeButton</string>
 </resources>

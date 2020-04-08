@@ -15,8 +15,8 @@
 
     <ScrollView
         android:id="@+id/skrolViewMenu"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_width="343dp"
+        android:layout_height="534dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -24,7 +24,7 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/buttonTrxtExChange"
+                android:id="@+id/textExChangeButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/generalIndent"
@@ -34,13 +34,12 @@
                 android:layout_marginEnd="@dimen/generalIndent"
                 android:layout_marginRight="@dimen/generalIndent"
                 android:layout_marginBottom="@dimen/generalIndent"
-                android:gravity="start"
                 android:scrollbarDefaultDelayBeforeFade="450"
                 android:text="@string/textExChangeActivity"
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/buttonFlagsActivity"
+                android:id="@+id/flagsButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
@@ -54,7 +53,7 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/loginButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
@@ -64,7 +63,7 @@
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginBottom="16dp"
-                android:text="@string/nextTask2" />
+                android:text="@string/LoginLinearActivity" />
 
             <Button
                 android:id="@+id/button4"

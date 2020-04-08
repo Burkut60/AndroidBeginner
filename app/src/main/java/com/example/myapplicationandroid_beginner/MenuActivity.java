@@ -12,24 +12,31 @@ public class MenuActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
-        Button buttonTextExChange = findViewById(R.id.buttonTrxtExChange);
-        Button buttonFlagsActivity = findViewById(R.id.buttonFlagsActivity);
+        Button textExChangeButton = findViewById(R.id.textExChangeButton);
+        Button flagsActivityButton = findViewById(R.id.flagsButton);
+        Button loginLinearButton = findViewById(R.id.loginButton);
 
-        buttonTextExChange.setOnClickListener(this);
-        buttonFlagsActivity.setOnClickListener(this);
+        textExChangeButton.setOnClickListener(this);
+        flagsActivityButton.setOnClickListener(this);
+        loginLinearButton.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.buttonTrxtExChange:
+            case R.id.textExChangeButton:
                 Intent intent = new Intent(this, TextExchangeActivity.class);
                 startActivity(intent);
                 break;
 
-            case R.id.buttonFlagsActivity:
+            case R.id.flagsButton:
                 Intent intentFlags = new Intent(this, FlagsActivity.class);
                 startActivity(intentFlags);
+                break;
+
+            case R.id.loginButton:
+                Intent intentLogin = new Intent(this, LoginLinearActivity.class);
+                startActivity(intentLogin);
                 break;
         }
     }

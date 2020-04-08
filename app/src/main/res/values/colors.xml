@@ -6,4 +6,10 @@
     <color name="redStrip"> #E80F0F</color>
     <color name="whiteStrip"> #FBFBFB</color>
     <color name="GreenColor">#28920B</color>
+    <color name="colorRed" />
+    <color name="yellow">#FAE311</color>
+    <color name="dark">#5E555050</color>
+    <color name="blue">#BA368CF4</color>
+    <color name="cappuccino">#AEB6A943</color>
+    <color name="cappucchino">#E94D3B1D</color>
 </resources>

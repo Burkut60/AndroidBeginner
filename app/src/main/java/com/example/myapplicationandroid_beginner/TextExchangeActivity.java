@@ -11,7 +11,6 @@ public class TextExchangeActivity extends Activity implements View.OnClickListen
 
     private TextView textView2;
     private TextView textView3;
-    Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +19,7 @@ public class TextExchangeActivity extends Activity implements View.OnClickListen
 
         textView2 = findViewById(R.id.textView2);
         textView3 = findViewById(R.id.textView3);
-        button = findViewById(R.id.buttonFlagsActivity);
+        Button button = findViewById(R.id.button1Activity);
 
         textView2.setOnClickListener(this);
         textView3.setOnClickListener(this);
