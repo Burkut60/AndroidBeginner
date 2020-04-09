@@ -9,21 +9,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.myapplicationandroid_beginner.FlagsActivity"
-            android:exported="true">
 
-        </activity>
-        <activity android:name="com.example.myapplicationandroid_beginner.TextExchangeActivity"
-            android:exported="true">
-        </activity>
-        <activity android:name="com.example.myapplicationandroid_beginner.LoginLinearActivity"
-            android:exported="true">
-        </activity>
+        <activity
+            android:name="com.example.myapplicationandroid_beginner.FlagsActivity"
+            android:exported="true"></activity>
+
+        <activity
+            android:name="com.example.myapplicationandroid_beginner.TextExchangeActivity"
+            android:exported="true"></activity>
+
+        <activity
+            android:name="com.example.myapplicationandroid_beginner.LoginLinearActivity"
+            android:exported="true"></activity>
+
         <activity android:name="com.example.myapplicationandroid_beginner.MenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".ImageActivity"
+            android:exported="true"></activity>
+
     </application>
 </manifest>
