@@ -19,20 +19,15 @@ public class ImageActivity extends Activity {
         setContentView(R.layout.activity_image);
 
         final EditText imageForText = findViewById(R.id.imageText);
-        final ImageView imageForImageView = findViewById(R.id.imageView);
+        ImageView imageForImageView = findViewById(R.id.imageView);
         Button imageForButton = findViewById(R.id.imageButton);
 
-
-
+        Picasso.get().load("http://i.imgur.com/DvpvklR.png").into(imageForImageView);
 
         imageForButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                Picasso.get().load("http://i.imgur.com/DvpvklR.png").into(imageForImageView);
             }
         });
-
-
     }
 }

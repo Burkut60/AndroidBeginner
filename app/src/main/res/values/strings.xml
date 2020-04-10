@@ -34,4 +34,5 @@
     <string name="enterImageAddress">enter image address</string>
     <string name="nameButtonImage">Ok</string>
     <string name="myUrl">http://i.imgur.com/DvpvklR.png</string>
+    <string name="nameActivityButtonImage">Image Activity</string>
 </resources>

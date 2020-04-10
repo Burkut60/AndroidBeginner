@@ -1,31 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<EditText
+    android:id="@+id/imageText"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical">
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/generalIndent"
+    android:autofillHints=""
+    android:hint="@string/enterImageAddress"
+    android:inputType="text"
+    android:text="@string/myUrl" />
 
-    <EditText
-        android:id="@+id/imageText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/generalIndent"
-        android:hint="@string/enterImageAddress"
-        android:autofillHints=""
-        android:inputType="text" />
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="96dp"
+    android:layout_height="96dp"
+    android:layout_margin="@dimen/generalIndent"
+    android:labelFor="@id/imageView"
+    tools:ignore="ContentDescription" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/generalIndent"
-        tools:ignore="ContentDescription"/>
-
-    <Button
-        android:id="@+id/imageButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/generalIndent"
-        android:text="@string/nameButtonImage"/>
+<Button
+    android:id="@+id/imageButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/generalIndent"
+    android:text="@string/nameButtonImage" />
 
 </LinearLayout>
