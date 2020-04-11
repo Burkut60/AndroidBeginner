@@ -3,7 +3,8 @@
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-android:orientation="vertical">
+android:orientation="vertical"
+    android:background="@color/dark">
 
 <EditText
     android:id="@+id/imageText"
@@ -12,15 +13,14 @@ android:orientation="vertical">
     android:layout_margin="@dimen/generalIndent"
     android:autofillHints=""
     android:hint="@string/enterImageAddress"
-    android:inputType="text"
+    android:inputType="textUri"
     android:text="@string/myUrl" />
 
-<ImageView
+<de.hdodenhof.circleimageview.CircleImageView
     android:id="@+id/imageView"
-    android:layout_width="96dp"
-    android:layout_height="96dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:layout_margin="@dimen/generalIndent"
-    android:labelFor="@id/imageView"
     tools:ignore="ContentDescription" />
 
 <Button
@@ -29,5 +29,13 @@ android:orientation="vertical">
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/generalIndent"
     android:text="@string/nameButtonImage" />
+
+    <ProgressBar
+        android:id="@+id/imagePB"
+        android:layout_width="@dimen/generalIndent"
+        android:layout_height="@dimen/generalIndent"
+        android:layout_margin="@dimen/generalIndent"
+        android:layout_gravity="center_horizontal"
+       />
 
 </LinearLayout>

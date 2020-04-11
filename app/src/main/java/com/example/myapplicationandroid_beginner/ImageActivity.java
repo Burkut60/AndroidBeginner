@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 
 import androidx.annotation.Nullable;
 
@@ -19,14 +20,16 @@ public class ImageActivity extends Activity {
         setContentView(R.layout.activity_image);
 
         final EditText imageForText = findViewById(R.id.imageText);
-        ImageView imageForImageView = findViewById(R.id.imageView);
+        final ImageView imageForImageView = findViewById(R.id.imageView);
         Button imageForButton = findViewById(R.id.imageButton);
-
-        Picasso.get().load("http://i.imgur.com/DvpvklR.png").into(imageForImageView);
+        final ProgressBar progressBar = findViewById(R.id.imagePB);
 
         imageForButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String url = imageForText.getText().toString();
+                progressBar.setVisibility(View.VISIBLE);
+                Picasso.get().load(url).into(imageForImageView);
             }
         });
     }

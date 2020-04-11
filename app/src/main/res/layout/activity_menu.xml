@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menuScroll"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:fillViewport="true">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:layout_margin="16dp"
     android:layout_marginStart="16dp"
     android:layout_marginLeft="16dp"
@@ -27,11 +35,6 @@
         android:scrollbarDefaultDelayBeforeFade="450"
         android:text="@string/textExChangeActivity"
         android:textSize="18sp" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
 
         <Button
             android:id="@+id/flagsButton"
@@ -108,5 +111,5 @@
             android:layout_margin="@dimen/generalIndent"
             android:text="@string/nextTask8" />
     </LinearLayout>
+    </ScrollView>
 
-</LinearLayout>
