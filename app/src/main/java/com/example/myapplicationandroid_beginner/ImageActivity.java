@@ -21,15 +21,17 @@ public class ImageActivity extends Activity {
 
         final EditText imageForText = findViewById(R.id.imageText);
         final ImageView imageForImageView = findViewById(R.id.imageView);
-        Button imageForButton = findViewById(R.id.imageButton);
+        final Button imageForButton = findViewById(R.id.imageButton);
         final ProgressBar progressBar = findViewById(R.id.imagePB);
 
         imageForButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String url = imageForText.getText().toString();
+
                 progressBar.setVisibility(View.VISIBLE);
                 Picasso.get().load(url).into(imageForImageView);
+                progressBar.setVisibility(View.INVISIBLE);
             }
         });
     }
