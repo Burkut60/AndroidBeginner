@@ -2,4 +2,5 @@
 <resources>
     <dimen name="generalIndent">16dp </dimen>
     <dimen name="flagStripSize">35dp</dimen>
+    <dimen name="fiftyDp">50dp</dimen>
 </resources>

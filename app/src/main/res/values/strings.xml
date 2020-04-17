@@ -31,4 +31,9 @@
     <string name="UserName" >username</string>
     <string name="forgot"><u>forgot your username/password?</u></string>
     <string name="buttonTextExChange">textExChangeButton</string>
+    <string name="enterImageAddress">enter image address</string>
+    <string name="nameButtonImage">Ok</string>
+    <string name="myUrl">https://i.imgur.com/DvpvklR.png</string>
+    <string name="nameActivityButtonImage">Image Activity</string>
+    <string name="todo">TODO</string>
 </resources>
