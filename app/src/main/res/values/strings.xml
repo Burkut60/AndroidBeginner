@@ -36,4 +36,28 @@
     <string name="myUrl">https://i.imgur.com/DvpvklR.png</string>
     <string name="nameActivityButtonImage">Image Activity</string>
     <string name="todo">TODO</string>
+
+    <string name="nameAlex">Alexei Burkut</string>
+    <string name="trophies">TROPHIES</string>
+    <string name="numb4">4</string>
+    <string name="numb54">54</string>
+    <string name="numb12">12</string>
+    <string name="following">FOLLOWING</string>
+    <string name="followers">FOLLOWERS</string>
+    <string name="myName">name</string>
+    <string name="alex">FOLLOWERS</string>
+    <string name="country">COUNTRY</string>
+    <string name="belarus">BELARUS</string>
+    <string name="postal">POSTAL CODE</string>
+    <string name="index">000000</string>
+    <string name="dataBirth">DATA OF BIRTH</string>
+    <string name="may">MAY,02,1988</string>
+    <string name="gender">GENDER</string>
+    <string name="male">MALE</string>
+    <string name="height">HEIGHT</string>
+    <string name="myHeight">190</string>
+    <string name="phone">PHONE</string>
+    <string name="numberPhone">(029)358–89–84</string>
+    <string name="profileActivityButton">profileActivityButton</string>
+
 </resources>
