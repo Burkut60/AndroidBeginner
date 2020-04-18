@@ -20,7 +20,6 @@ public class ImageActivity extends Activity {
 
     private EditText imageForText;
     private ImageView imageForImageView;
-    private Button imageForButton;
     private ProgressBar progressBar;
 
     @Override
@@ -29,8 +28,8 @@ public class ImageActivity extends Activity {
         setContentView(R.layout.activity_image);
 
         imageForText = findViewById(R.id.imageText);
-        imageForImageView = findViewById(R.id.imageView);
-        imageForButton = findViewById(R.id.imageButton);
+        imageForImageView = findViewById(R.id.profileImage);
+        Button imageForButton = findViewById(R.id.imageButton);
         progressBar = findViewById(R.id.imagePB);
         progressBar.setVisibility(View.INVISIBLE);
 

@@ -33,10 +33,9 @@
     <string name="buttonTextExChange">textExChangeButton</string>
     <string name="enterImageAddress">enter image address</string>
     <string name="nameButtonImage">Ok</string>
-    <string name="myUrl">https://i.imgur.com/DvpvklR.png</string>
+    <string name="myUrl">https://"https://i.imgur.com/DvpvklR.png"</string>
     <string name="nameActivityButtonImage">Image Activity</string>
     <string name="todo">TODO</string>
-
     <string name="nameAlex">Alexei Burkut</string>
     <string name="trophies">TROPHIES</string>
     <string name="numb4">4</string>
@@ -44,7 +43,7 @@
     <string name="numb12">12</string>
     <string name="following">FOLLOWING</string>
     <string name="followers">FOLLOWERS</string>
-    <string name="myName">name</string>
+    <string name="myName">NAME</string>
     <string name="alex">FOLLOWERS</string>
     <string name="country">COUNTRY</string>
     <string name="belarus">BELARUS</string>
@@ -59,5 +58,6 @@
     <string name="phone">PHONE</string>
     <string name="numberPhone">(029)358–89–84</string>
     <string name="profileActivityButton">profileActivityButton</string>
-
+    <string name="profileActivity">profile Activity</string>
+    <string name="profileImageView">profileImageView</string>
 </resources>

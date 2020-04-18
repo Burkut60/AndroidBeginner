@@ -77,11 +77,11 @@
             android:text="@string/nameActivityButtonImage" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/profileActivityButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/generalIndent"
-            android:text="@string/nextTask4" />
+            android:text="@string/profileActivity" />
 
         <Button
             android:id="@+id/button6"
