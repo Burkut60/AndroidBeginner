@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/menuScroll"
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login_bg"
-    android:fillViewport="true">
-
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
     android:layout_margin="16dp"
     android:layout_marginStart="16dp"
     android:layout_marginLeft="16dp"
@@ -21,95 +13,105 @@
     android:orientation="vertical"
     android:visibility="visible">
 
-    <Button
-        android:id="@+id/textExChangeButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/generalIndent"
-        android:layout_marginStart="@dimen/generalIndent"
-        android:layout_marginLeft="@dimen/generalIndent"
-        android:layout_marginTop="@dimen/generalIndent"
-        android:layout_marginEnd="@dimen/generalIndent"
-        android:layout_marginRight="@dimen/generalIndent"
-        android:layout_marginBottom="@dimen/generalIndent"
-        android:scrollbarDefaultDelayBeforeFade="450"
-        android:text="@string/textExChangeActivity"
-        android:textSize="18sp" />
+    <ScrollView
+        android:id="@+id/skrolViewMenu"
+        android:layout_width="343dp"
+        android:layout_height="534dp">
 
-        <Button
-            android:id="@+id/flagsButton"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp"
-            android:text="@string/FlagsActivity"
-            android:textSize="18sp" />
+            android:orientation="vertical">
 
-        <Button
-            android:id="@+id/loginButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp"
-            android:text="@string/LoginLinearActivity" />
+            <Button
+                android:id="@+id/textExChangeButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/generalIndent"
+                android:layout_marginStart="@dimen/generalIndent"
+                android:layout_marginLeft="@dimen/generalIndent"
+                android:layout_marginTop="@dimen/generalIndent"
+                android:layout_marginEnd="@dimen/generalIndent"
+                android:layout_marginRight="@dimen/generalIndent"
+                android:layout_marginBottom="@dimen/generalIndent"
+                android:scrollbarDefaultDelayBeforeFade="450"
+                android:text="@string/textExChangeActivity"
+                android:textSize="18sp" />
 
-        <Button
-            android:id="@+id/imageActivityButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp"
-            android:text="@string/nameActivityButtonImage" />
+            <Button
+                android:id="@+id/flagsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="@string/FlagsActivity"
+                android:textSize="18sp" />
 
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/generalIndent"
-            android:text="@string/nextTask4" />
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="@string/LoginLinearActivity" />
 
-        <Button
-            android:id="@+id/button6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/generalIndent"
-            android:text="@string/nextTask5" />
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="@string/nextTask3" />
 
-        <Button
-            android:id="@+id/button7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/generalIndent"
-            android:text="@string/nextTask6" />
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/generalIndent"
+                android:text="@string/nextTask4" />
 
-        <Button
-            android:id="@+id/button8"
-            android:layout_width="match_parent"
-            android:layout_height="63dp"
-            android:layout_margin="@dimen/generalIndent"
-            android:text="@string/nextTask7" />
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/generalIndent"
+                android:text="@string/nextTask5" />
 
-        <Button
-            android:id="@+id/button9"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/generalIndent"
-            android:text="@string/nextTask8" />
-    </LinearLayout>
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/generalIndent"
+                android:text="@string/nextTask6" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:layout_margin="@dimen/generalIndent"
+                android:text="@string/nextTask7" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/generalIndent"
+                android:text="@string/nextTask8" />
+        </LinearLayout>
     </ScrollView>
-
+</LinearLayout>
