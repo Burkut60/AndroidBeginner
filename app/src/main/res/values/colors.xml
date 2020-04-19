@@ -10,6 +10,8 @@
     <color name="yellow">#FAE311</color>
     <color name="dark">#5E555050</color>
     <color name="blue">#BA368CF4</color>
-    <color name="cappuccino">#AEB6A943</color>
-    <color name="cappucchino">#E94D3B1D</color>
+    <color name="cappucchino">#AEB6A943</color>
+    <color name="gray">#d4d3d3</color>
+    <color name="white">#ffffff</color>
+    <color name="orange">#d45807</color>
 </resources>

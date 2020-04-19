@@ -15,10 +15,14 @@ public class MenuActivity extends Activity implements View.OnClickListener {
         Button textExChangeButton = findViewById(R.id.textExChangeButton);
         Button flagsActivityButton = findViewById(R.id.flagsButton);
         Button loginLinearButton = findViewById(R.id.loginButton);
+        Button imageActivityButton = findViewById(R.id.imageActivityButton);
+        Button profileActivityButton = findViewById(R.id.profileActivityButton);
 
         textExChangeButton.setOnClickListener(this);
         flagsActivityButton.setOnClickListener(this);
         loginLinearButton.setOnClickListener(this);
+        imageActivityButton.setOnClickListener(this);
+        profileActivityButton.setOnClickListener(this);
     }
 
     @Override
@@ -37,6 +41,17 @@ public class MenuActivity extends Activity implements View.OnClickListener {
             case R.id.loginButton:
                 Intent intentLogin = new Intent(this, LoginLinearActivity.class);
                 startActivity(intentLogin);
+                break;
+
+            case R.id.imageActivityButton:
+                Intent intentImage = new Intent(this, ImageActivity.class);
+                startActivity(intentImage);
+                break;
+
+            case R.id.profileActivityButton:
+                ;
+                Intent intentProfileActivity = new Intent(this, ProfileActivity.class);
+                startActivity(intentProfileActivity);
                 break;
         }
     }
