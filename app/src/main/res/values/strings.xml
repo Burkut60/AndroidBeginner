@@ -28,7 +28,7 @@
     <string name="logIn">Log in</string>
     <string name="LoginLinearActivity">LoginLinearActivity</string>
     <string name="Password">password</string>
-    <string name="UserName" >username</string>
+    <string name="UserName">username</string>
     <string name="forgot"><u>forgot your username/password?</u></string>
     <string name="buttonTextExChange">textExChangeButton</string>
     <string name="enterImageAddress">enter image address</string>

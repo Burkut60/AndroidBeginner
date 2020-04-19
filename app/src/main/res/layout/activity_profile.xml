@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -14,13 +13,14 @@
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginBottom="30dp"
+        android:layout_weight="1"
         android:foreground="@drawable/ic_notifications_none_black_24dp"
         android:orientation="horizontal" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="3"
+        android:layout_weight="2"
         android:orientation="horizontal">
 
 
@@ -34,6 +34,7 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:fontFamily="@font/monda_bold"
             android:gravity="center|center_vertical"
             android:text="@string/nameAlex"
             android:textColor="@color/white"
@@ -58,6 +59,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/monda_regular"
                 android:gravity="center"
                 android:text="@string/trophies"
                 android:textColor="@color/gray"
@@ -68,6 +70,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/monda_bold"
                 android:gravity="center"
                 android:text="@string/numb4"
                 android:textColor="@color/orange"
@@ -85,16 +88,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/monda_regular"
                 android:gravity="center"
                 android:scrollbarSize="@dimen/q16sp"
                 android:text="@string/following"
-                android:textColor="@color/gray" />
+                android:textColor="@color/gray"
+                android:textSize="@dimen/q16sp" />
 
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/monda_bold"
                 android:gravity="center"
                 android:text="@string/numb54"
                 android:textColor="@color/orange"
@@ -112,6 +118,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/monda_regular"
                 android:gravity="center"
                 android:text="@string/followers"
                 android:textColor="@color/gray"
@@ -122,12 +129,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/monda_bold"
                 android:gravity="center"
                 android:text="@string/numb12"
                 android:textColor="@color/orange"
                 android:textSize="25sp" />
-
-
         </LinearLayout>
     </LinearLayout>
 
@@ -148,6 +154,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="@font/monda_regular"
             android:text="@string/myName"
             android:textColor="@color/gray"
             android:textSize="@dimen/q16sp" />
@@ -157,6 +164,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="@font/monda_bold"
             android:text="@string/nameAlex"
             android:textColor="@color/white"
             android:textSize="@dimen/q16sp" />
@@ -175,6 +183,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="@font/monda_regular"
             android:text="@string/country"
             android:textColor="@color/gray"
             android:textSize="@dimen/q16sp" />
@@ -184,6 +193,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="@font/monda_bold"
             android:text="@string/belarus"
             android:textColor="@color/white"
             android:textSize="@dimen/q16sp" />
@@ -201,6 +211,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="@font/monda_regular"
             android:text="@string/postal"
             android:textColor="@color/gray"
             android:textSize="@dimen/q16sp" />
@@ -210,6 +221,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="@font/monda_bold"
             android:text="@string/index"
             android:textColor="@color/white"
             android:textSize="@dimen/q16sp" />
@@ -227,8 +239,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="@font/monda_regular"
             android:text="@string/dataBirth"
-            android:textColor="@color/white"
+            android:textColor="@color/gray"
             android:textSize="@dimen/q16sp" />
 
         <TextView
@@ -236,6 +249,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="@font/monda_bold"
             android:text="@string/may"
             android:textColor="@color/white"
             android:textSize="@dimen/q16sp" />
@@ -253,6 +267,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="@font/monda_regular"
             android:text="@string/gender"
             android:textColor="@color/gray"
             android:textSize="@dimen/q16sp" />
@@ -262,6 +277,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="@font/monda_bold"
             android:text="@string/male"
             android:textColor="@color/white"
             android:textSize="@dimen/q16sp" />
@@ -279,6 +295,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="@font/monda_regular"
             android:text="@string/height"
             android:textColor="@color/gray"
             android:textSize="@dimen/q16sp" />
@@ -288,6 +305,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="@font/monda_bold"
             android:text="@string/myHeight"
             android:textColor="@color/white"
             android:textSize="@dimen/q16sp" />
@@ -305,6 +323,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="@font/monda_regular"
             android:text="@string/phone"
             android:textColor="@color/gray"
             android:textSize="@dimen/q16sp" />
@@ -314,6 +333,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="@font/monda_bold"
             android:text="@string/numberPhone"
             android:textColor="@color/white"
             android:textSize="@dimen/q16sp" />

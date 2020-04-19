@@ -8,4 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="textMondaBold" parent="AppTheme">
+<item name="fontFamily">@font/monda_bold</item>
+    </style>
+
+    <style name="textMondaRegular">
+        <item name="fontFamily">@font/monda_regular</item>
+    </style>
+
+
 </resources>
